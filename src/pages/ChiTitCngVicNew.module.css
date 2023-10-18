@@ -1,0 +1,604 @@
+.uleftArrowToLeftIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.daysLeft {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.ucodeBranchIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.daysLeft1 {
+  position: relative;
+  line-height: 16px;
+}
+.ucodeBranchParent {
+  align-items: center;
+  gap: var(--gap-9xs);
+  font-size: var(--meta-size);
+  color: var(--state-info-default);
+}
+.frameWrapper,
+.tag,
+.ucodeBranchParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tag {
+  border-radius: var(--br-81xl);
+  background-color: var(--bg);
+  border: 1px solid var(--line);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  align-items: flex-start;
+}
+.ulinkAltIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ucommentDotsWrapper,
+.ulinkAltWrapper {
+  border-radius: var(--br-31xl);
+  background-color: var(--opacity-white-100);
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.ucommentDotsWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div {
+  position: relative;
+  line-height: 12px;
+}
+.wrapper {
+  position: absolute;
+  top: -3px;
+  left: 18px;
+  border-radius: var(--br-81xl);
+  background-color: var(--state-danger-default);
+  border: 1px solid var(--opacity-white-100);
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+}
+.frameParent1 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.unotifiacationWrapper {
+  border-radius: var(--br-31xl);
+  background-color: var(--state-danger-default);
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameDiv,
+.uellipsisHWrapper,
+.unotifiacationWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.uellipsisHWrapper {
+  border-radius: var(--br-31xl);
+  background-color: var(--opacity-white-100);
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.frameDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  color: var(--opacity-white-100);
+}
+.frameContainer,
+.uleftArrowToLeftParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: space-between;
+}
+.uleftArrowToLeftParent {
+  width: 592px;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.progressIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.downIcon,
+.progressIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.frameParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) 0 0;
+  gap: var(--gap-11xs);
+  cursor: pointer;
+}
+.taskname {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.taskname1 {
+  position: relative;
+  font-size: var(--bodytext-14-regular-size);
+  line-height: 20px;
+  color: var(--caption);
+}
+.frameGroup,
+.frameParent2,
+.tasknameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tasknameParent {
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.frameGroup,
+.frameParent2 {
+  background-color: var(--opacity-white-100);
+}
+.frameParent2 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  box-shadow: var(--card-2);
+  border: 1px solid var(--line);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  gap: var(--gap-9xs);
+  font-size: 18px;
+  color: var(--heading);
+}
+.frameGroup {
+  height: 114px;
+  flex-direction: column;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.ngiGiaoVic,
+.usearchIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.ngiGiaoVic {
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 154px;
+}
+.usearchIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  display: none;
+}
+.search {
+  position: relative;
+  line-height: 20px;
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 21px;
+}
+.searchParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.usearchParent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.info,
+.input,
+.ngiGiaoVicParent,
+.usearchParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--opacity-white-100);
+  border: 1px solid var(--primary-default);
+  align-items: center;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xl);
+}
+.info,
+.ngiGiaoVicParent {
+  height: 36px;
+}
+.info {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  color: var(--body-text);
+}
+.ngiGiaoVicParent {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-11xs);
+}
+.frameItem {
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 21px;
+  display: none;
+}
+.input1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xl);
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-181xl);
+  background-color: var(--label);
+}
+.groupItem {
+  position: absolute;
+  height: 83.33%;
+  width: 41.67%;
+  top: 8.33%;
+  right: 54.17%;
+  bottom: 8.33%;
+  left: 4.17%;
+  border-radius: 50%;
+  background-color: var(--opacity-white-100);
+}
+.rectangleParent {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 25%;
+  right: 0;
+  bottom: 25%;
+  left: 0;
+}
+.switch {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.switchWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.frameParent6,
+.switchWrapper,
+.uplusParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  width: 568px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.uplusParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  color: var(--primary-default);
+}
+.frameParent5,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  gap: var(--gap-xs);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--bg);
+  padding: 15px;
+  color: var(--heading);
+}
+.downIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.downWrapper {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mT {
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.frameParent8,
+.ueditAltWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent8 {
+  align-items: center;
+  gap: var(--gap-11xs);
+}
+.ueditAltWrapper {
+  border-radius: var(--br-81xl);
+  align-items: flex-start;
+  padding: var(--padding-9xs);
+}
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameWrapper2 {
+  background-color: var(--opacity-white-100);
+  box-shadow: 0 1px 0 rgba(221, 221, 221, 0.5);
+  padding: var(--padding-xs);
+}
+.frameParent4,
+.frameWrapper2,
+.frameWrapper6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper6 {
+  background-color: var(--opacity-white-100);
+  padding: var(--padding-xs);
+}
+.frameParent4 {
+  overflow-y: auto;
+  padding: var(--padding-xs) var(--padding-5xl);
+  gap: var(--gap-5xs);
+  color: var(--caption);
+}
+.userpic {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-52xl-5);
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  border: 0.7px solid var(--colors-grey-grey-3);
+  box-sizing: border-box;
+}
+.label,
+.state,
+.userpic {
+  position: absolute;
+}
+.state {
+  height: calc(100% - 28px);
+  width: calc(100% - 28px);
+  top: 2px;
+  right: 3px;
+  bottom: 26px;
+  left: 25px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  border: 1.5px solid var(--opacity-white-100);
+  box-sizing: border-box;
+}
+.label {
+  height: 53.57%;
+  width: 57.14%;
+  top: 24%;
+  left: 20.42%;
+  line-height: 14.44px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avt,
+.nhpNiDung {
+  position: relative;
+}
+.avt {
+  width: 36px;
+  height: 36px;
+}
+.nhpNiDung {
+  flex: 1;
+  line-height: 20px;
+}
+.nhpNiDungParent {
+  border-radius: 8px;
+  background-color: var(--opacity-white-100);
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+  width: 548px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  gap: 10px;
+  text-align: left;
+  font-size: var(--bodytext-14-regular-size);
+  color: var(--label);
+}
+.avtParent,
+.frameWrapper7,
+.nhpNiDungParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.avtParent {
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.frameWrapper7 {
+  align-self: stretch;
+  background-color: var(--opacity-white-100);
+  align-items: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  text-align: center;
+  font-size: var(--meta-size);
+  color: var(--opacity-white-100);
+}
+.button,
+.button1,
+.button2,
+.modalfooter {
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-sm);
+}
+.button {
+  background-color: var(--opacity-white-100);
+  border: 1px solid var(--primary-default);
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.button1,
+.button2,
+.modalfooter {
+  display: flex;
+}
+.button1 {
+  background-color: var(--opacity-white-100);
+  border: 1px solid var(--state-danger-default);
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  color: var(--state-danger-default);
+}
+.button2,
+.modalfooter {
+  background-color: var(--primary-default);
+  flex-direction: column;
+  color: var(--opacity-white-100);
+}
+.modalfooter {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--opacity-white-100);
+  box-shadow: 0-1px 0#ececec;
+  align-items: flex-end;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  text-align: center;
+  color: var(--primary-default);
+}
+.chiTitCngVicNew,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+}
+.chiTitCngVicNew {
+  position: relative;
+  background-color: var(--opacity-white-100);
+  box-shadow: -6px 0 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--bodytext-14-regular-size);
+  color: var(--body-text);
+  font-family: var(--bodytext-14-regular);
+}
